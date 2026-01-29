@@ -13,5 +13,11 @@ class ManagerUserSeeder extends Seeder
     public function run(): void
     {
         //
+        User::create([
+            'name' => 'Manager',
+            'email' => 'manageruser@gmail.com',
+            'password' => 'manager123',
+            'role' => 'admin',
+        ]);
     }
 }
