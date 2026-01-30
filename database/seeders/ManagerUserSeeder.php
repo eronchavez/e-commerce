@@ -4,6 +4,8 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\User;
+
 
 class ManagerUserSeeder extends Seeder
 {
@@ -17,7 +19,7 @@ class ManagerUserSeeder extends Seeder
             'name' => 'Manager',
             'email' => 'manageruser@gmail.com',
             'password' => 'manager123',
-            'role' => 'admin',
+            'role' => 'manager',
         ]);
     }
 }
